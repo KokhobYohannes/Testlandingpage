@@ -1,6 +1,6 @@
 h1 {
     font-family: 'Poppins', sans-serif;
-    font-size: 7.5rem;
+    font-size: 6rem;
     color: rgb(243, 240, 237);
     text-align: center;
     width: 100%;
@@ -33,14 +33,26 @@ h3 {
     color: white;
     background-color:rgb(221, 161, 21);
     justify-content: center;
-    margin-left: 38%;
+    margin-left: 39%;
     padding: 3%;
     margin-bottom: 2%;
-    width: 25%;
+    width: 22%;
     margin-top: 1%;
     border-radius: 100%;
+    border-color: white;
 }
 
 .btn:hover{
     background:rgba(23, 118, 195,0.8);
-    }  
+    border-color: white;
+    } 
+
+    .navbar{
+       background-color: whitesmoke;
+    }
+
+    .nav-link{
+        color: black;
+        font-weight: 600;
+        font-size: 1.3rem;
+    }
